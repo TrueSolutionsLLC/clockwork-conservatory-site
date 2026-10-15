@@ -1,0 +1,22 @@
+name: "Bug report"
+description: "Report a problem in the game"
+body:
+  - type: markdown
+    attributes:
+      value: "This request will be public. Do not include personal information, receipts or device identifiers."
+  - type: input
+    id: version
+    attributes:
+      label: App version, iPhone model and iOS version
+      placeholder: "For example: 0.6.0, iPhone 17, iOS 27"
+  - type: input
+    id: chapter
+    attributes:
+      label: Chapter and puzzle
+  - type: textarea
+    id: request
+    attributes:
+      label: What happened?
+      description: "Include expected behavior and steps to repeat the problem."
+    validations:
+      required: true

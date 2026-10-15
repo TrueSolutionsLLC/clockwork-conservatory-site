@@ -1,0 +1,22 @@
+name: "Player support"
+description: "Ask for help or a puzzle hint"
+body:
+  - type: markdown
+    attributes:
+      value: "This request will be public. Do not include personal information, receipts or device identifiers."
+  - type: input
+    id: version
+    attributes:
+      label: App version, iPhone model and iOS version
+      placeholder: "For example: 0.6.0, iPhone 17, iOS 27"
+  - type: input
+    id: chapter
+    attributes:
+      label: Chapter and puzzle
+  - type: textarea
+    id: request
+    attributes:
+      label: How can we help?
+      description: "For puzzle help, tell us if you prefer a small hint or a full solution."
+    validations:
+      required: true
