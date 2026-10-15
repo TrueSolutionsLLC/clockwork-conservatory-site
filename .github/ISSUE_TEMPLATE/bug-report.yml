@@ -8,7 +8,7 @@ body:
     id: version
     attributes:
       label: App version, iPhone model and iOS version
-      placeholder: "For example: 0.6.0, iPhone 17, iOS 27"
+      placeholder: "For example: 1.0 (1), iPhone 17, iOS 27"
   - type: input
     id: chapter
     attributes:
